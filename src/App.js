@@ -1,9 +1,9 @@
-import logo from "./logo.svg";
+import Body from "./components/Body";
 
 function App() {
   return (
     <div className="App">
-      <h1 className="text-3xl font-bold text-green-700">Testing</h1>
+      <Body />
     </div>
   );
 }
