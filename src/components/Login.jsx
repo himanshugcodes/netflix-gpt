@@ -95,11 +95,12 @@ const Login = () => {
       <Header />
       <div className="absolute">
         <img
+          className=" object-cover w-[100vw] h-[100vh]"
           src="https://assets.nflxext.com/ffe/siteui/vlv3/c38a2d52-138e-48a3-ab68-36787ece46b3/eeb03fc9-99c6-438e-824d-32917ce55783/IN-en-20240101-popsignuptwoweeks-perspective_alpha_website_medium.jpg"
           alt="banner"
         />
       </div>
-      <form className="w-4/12 absolute p-12 bg-black my-36 mx-auto right-0 left-0   text-white rounded-lg bg-opacity-80">
+      <form className="w-10/12 md:w-8/12 lg:w-6/12 xl:w-4/12 absolute mt-20 md:mt-12 p-5 md:p-12 bg-black my-5 md:my-36 mx-auto right-0 left-0   text-white rounded-lg bg-opacity-80">
         <h1 className="text-2xl font-bold py-4">
           {isSignInForm ? "Sign In" : "Sign Up"}
         </h1>

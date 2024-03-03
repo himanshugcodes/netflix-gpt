@@ -44,10 +44,14 @@ const Header = () => {
   }, []);
   return (
     <div className="absolute top-0 left-0 right-0 z-10 p-4 flex justify-between items-center bg-gradient-to-b from-black">
-      <img className="w-44 mx-auto md:mx-0" src={LOGO} alt="logo" />
+      <img className="w-32 md:w-44   mx-0 md:mx-0" src={LOGO} alt="logo" />
       {user && (
         <div className="flex p-2">
-          <img className="w-10 h-10 " alt="usericon" src={user.photoURL} />
+          <img
+            className="w-7 h-7 md:w-10 md:h-10 "
+            alt="usericon"
+            src={user.photoURL}
+          />
           <button className="font-bold px-2 text-white" onClick={handleSignOut}>
             Sign Out
           </button>
